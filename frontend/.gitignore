@@ -1,0 +1,46 @@
+# Dependencies
+/node_modules/
+
+# Production build
+/build/
+/.next/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Misc
+.DS_Store
+.vscode/
+.idea/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Credentials
+**/credentials/
+**/auth/
+*.password
+*.token
+# Database files
+*.sql
+*.sqlite
+*.db
+# Logs and temporary files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+*.tmp
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+# Personal configuration
+config.personal.js
+settings.local.json
+# Secrets
+/config/secrets/

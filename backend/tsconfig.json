@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2016", // Versi JavaScript target
+    "module": "commonjs", // Sistem modul yang digunakan
+    "rootDir": "./src", // Folder sumber kode TypeScript kita
+    "outDir": "./dist", // Folder untuk file JavaScript hasil kompilasi
+    "esModuleInterop": true, // Mengizinkan sintaks import/export gaya CommonJS
+    "forceConsistentCasingInFileNames": true,
+    "strict": true, // Mengaktifkan semua pemeriksaan tipe yang ketat
+    "skipLibCheck": true // Melewatkan pemeriksaan tipe untuk file deklarasi library
+  },
+  "include": [
+    "src/**/*.ts" // Sertakan semua file .ts di dalam folder src
+  ],
+  "exclude": [
+    "node_modules" // Kecualikan folder node_modules
+  ]
+}
